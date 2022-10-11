@@ -1,0 +1,109 @@
+img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.bottom-left{
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid black;
+    border-right: 1px solid black;
+    color: var(--grey);
+}
+.bottom-left h3{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    font-size: 4rem;
+}
+.bottom-left p{
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    width: 50%;
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+    background-color: rgba(0,0,0,.2);
+}
+.bottom-left .buttons{
+    position: absolute;
+    left: 25%;
+    top: 85%;
+    width: 50%;
+}
+.bottom-left .btn {
+    width: 35%;
+    margin: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.btn.selected{
+    background-color: #00308F;
+}
+
+.bottom-right{
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid black;
+    border-right: 1px solid black;
+    color: var(--grey);
+    
+}
+.bottom-right h3{
+    position: absolute;
+    left: 20%;
+    width: 40%;
+    top: 20%;
+    font-size: 4rem;
+}
+.bottom-right p{
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    width: 50%;
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+    
+}
+.bottom-right .buttons{
+    position: absolute;
+    left: 25%;
+    top: 85%;
+    width: 50%;
+}
+.bottom-right .btn2 {
+    width: 35%;
+    margin: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.bottom-right p{
+    display: flex;
+    align-items: center;
+}
+.btn.selected{
+    background-color: #00308F;
+}
+.btn2.selected{
+    background-color: #00308F;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    position: absolute;
+    top: 70px;
+    left: 10%;
+    font-size: 4rem;
+}
+.icon{
+    color: var(--grey);
+}
+.icon:hover{
+    color: #00308F;
+    cursor: pointer;
+}

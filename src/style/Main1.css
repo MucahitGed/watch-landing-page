@@ -1,0 +1,14 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 60vh;
+    width: 100%;
+    background-image: url('../img/5.jpg'); 
+    background-size: cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    /* 5,7, 8 , */
+}
