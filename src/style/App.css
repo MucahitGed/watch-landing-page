@@ -107,3 +107,34 @@ img{
     color: #00308F;
     cursor: pointer;
 }
+/* smooth changer*/
+
+.bottom-left#enter {
+    transform: translateX(100%);
+  }
+  .bottom-left#enter-active {
+    transform: translateX(0%);
+    transition: transform 1000ms ease-in-out;
+  }
+  .bottom-left#exit {
+    transform: translateX(0%);
+  }
+  .bottom-left#exit-active {
+    transform: translateX(-100%);
+    transition: transform 1000ms ease-in-out;
+  }
+
+#bottom-right#enter {
+    transform: translateX(100%);
+  }
+  #bottom-right#enter-active {
+    transform: translateX(0%);
+    transition: transform 1000ms ease-in-out;
+  }
+  #bottom-right#exit {
+    transform: translateX(0%);
+  }
+  #bottom-right#exit-active {
+    transform: translateX(-100%);
+    transition: transform 1000ms ease-in-out;
+  }
